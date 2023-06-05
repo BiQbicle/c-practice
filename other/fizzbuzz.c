@@ -6,7 +6,7 @@ unsigned short get_numbers() {
     printf("Now Many Numbers? ");
     scanf("%hu", &limit);
     while (limit < 0 || limit > 2000) {
-        printf("please enter a valid number in the limit of 0 to 2000? ");
+        printf("Please enter a valid number in the limit of 0 to 2000? ");
         scanf("%hu", &limit);
     }
     return limit;
@@ -20,11 +20,11 @@ int main() {
         int is_divisible_by_5 = g % 5 == 0;
 
         if (is_divisible_by_3 && is_divisible_by_5) {
-            printf("FIZZANDBUZZ\n");
+            printf("FizzBuzz\n");
         } else if (is_divisible_by_3) {
-            printf("FIZZ\n");
+            printf("Fizz\n");
         } else if (is_divisible_by_5) {
-            printf("BUZZ\n");
+            printf("Buzz\n");
         } else {
             printf("%d\n", g);
         }
