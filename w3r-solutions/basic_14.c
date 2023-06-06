@@ -13,9 +13,9 @@ double get_number_from_stdin(const char *defaultProompt,
 }
 
 int main() {
-    int total_distance = get_number_from_stdin(
+    double total_distance = get_number_from_stdin(
         "Please Input The Total Distance: ", "Please Input A Valid Number");
-    int feul_spent = get_number_from_stdin(
+    double feul_spent = get_number_from_stdin(
         "Please Input Amount Of Feul In KG: ", "Please Input A Valid Number");
     double average_consumption = (total_distance / feul_spent);
     printf("%lf", average_consumption);
