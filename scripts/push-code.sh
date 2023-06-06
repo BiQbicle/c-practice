@@ -9,5 +9,5 @@ fi
 echo "$msg"
 
  git add .
- git commit -am "$msg"
+ git commit -am "Did A Few More Problems From W3Resources"
  git push origin main

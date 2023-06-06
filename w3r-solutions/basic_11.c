@@ -4,8 +4,8 @@ short get_number_from_stdin() {
     short limit;
     printf("Enter A Number: ");
     scanf("%hu", &limit);
-    while (limit < 1 || limit > 1000) {
-        printf("Invalid Number Please Enter A Valid Number [1-1000]: ");
+    while (limit < 1 || limit > 1000000) {
+        printf("Invalid Number Please Enter A Valid Number [1-1000000]: ");
         scanf("%hu", &limit);
     }
     return limit;
