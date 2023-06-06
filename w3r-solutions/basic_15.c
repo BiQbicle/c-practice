@@ -4,14 +4,14 @@
 
 double get_number_from_stdin(const char *defaultProompt,
                              const char *errorProompt) {
-    double limit;
+    double end;
     printf("%s", defaultProompt);
-    scanf("%lf", &limit);
-    while (limit < 1 || limit > 100000) {
+    scanf("%lf", &end);
+    while (end < 1 || end > 100000) {
         printf("%s", errorProompt);
-        scanf("%lf", &limit);
+        scanf("%lf", &end);
     }
-    return limit;
+    return end;
 }
 
 int main() {
