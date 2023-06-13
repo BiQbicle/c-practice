@@ -2,6 +2,14 @@
   "files.associations": {
     "stdlib.h": "c",
     "random": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "array": "c",
+    "*.tcc": "c",
+    "memory": "c",
+    "istream": "c",
+    "functional": "c",
+    "tuple": "c",
+    "utility": "c",
+    "input.h": "c"
   }
 }
