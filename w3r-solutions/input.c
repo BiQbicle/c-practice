@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 
-int get_number_from_stdin(const char *defaultProompt,
-                          const char *errorProompt) {
+int get_positive_integer(const char *defaultProompt, const char *errorProompt) {
     int end;
     printf("%s", defaultProompt);
     scanf("%d", &end);
@@ -14,7 +13,7 @@ int get_number_from_stdin(const char *defaultProompt,
     return end;
 }
 
-char get_char_from_stdin(const char *defaultPrompt, const char *errorPrompt) {
+char get_char(const char *defaultPrompt, const char *errorPrompt) {
     char end;
     printf("%s", defaultPrompt);
     scanf(" %c", &end);
