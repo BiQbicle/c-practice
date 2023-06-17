@@ -16,9 +16,12 @@ int main(void) {
     short qt_item1 = get_number_from_stdin();
     short weight_item2 = get_number_from_stdin();
     short qt_item2 = get_number_from_stdin();
+
+
     int average_value =
         ((weight_item1 * qt_item1) + (weight_item2 * qt_item2)) /
         (qt_item1 + qt_item2);
+    
     printf("Average Value = %d", average_value);
 
     return 0;
