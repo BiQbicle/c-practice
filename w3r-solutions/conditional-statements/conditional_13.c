@@ -2,7 +2,7 @@
 #include "../input.h"
 int main() {
 
-    int temperature = negative_positive_number_from_stdin("enter the temperature", "enter a valid temperature");
+    int temperature = get_positive_negative_integer("enter the temperature", "enter a valid temperature");
     if (temperature <= 0) {
         printf("Freezing Weather");
     }
